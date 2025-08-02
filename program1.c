@@ -7,6 +7,7 @@ Hello World!
 Hello
 */
 
+//-------------------using fscanf()-----------------------
 #include<stdio.h>
 
 int main()
@@ -20,3 +21,26 @@ int main()
       printf("\n");
     }
 }
+
+
+//-------------------using getc()-----------------------
+/*
+#include<stdio.h>
+
+int main()
+{
+    FILE *fp;
+    fp = fopen("abc.txt","r+");
+    
+    if (fp == NULL)
+      perror("Invalid file!");
+    
+    int ch;
+    
+    while((ch = (getc(fp))) != EOF)
+    {
+        printf("%c",ch);
+    }
+}
+
+*/

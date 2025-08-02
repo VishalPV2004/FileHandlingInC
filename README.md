@@ -80,10 +80,4 @@
 
 Vishal P V  
 B.E. ECE – RMK Engineering College  
-GitHub: [Your GitHub Profile Link]  
-Email: [your email]
 
----
-
-
-This project is open-source and free to use under the MIT License.
